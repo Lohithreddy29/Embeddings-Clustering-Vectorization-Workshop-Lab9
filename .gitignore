@@ -1,0 +1,57 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local data / large artifacts
+data/
+models/
+artifacts/
+outputs/
+glove.6B/
+*.keras
+*.h5
+*.pickle
+*.pkl
+
+# Temporary files
+tmp/
+temp/
+
+# Cache folders
+.cache/
+.pytest_cache/
+.mypy_cache/
